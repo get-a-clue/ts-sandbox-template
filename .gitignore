@@ -1,0 +1,28 @@
+# Editors
+*.iml
+.idea
+.vimrc
+*.swp
+*.swo
+/.project
+.kube
+.vscode
+*.code-workspace
+.DS_Store
+.history
+
+# Ignore Yarn.lock in subfolders
+*/**/yarn.lock
+/.yarnclean
+yarn_*_*.lock
+
+# testing/development
+/build
+
+# TypeScript
+*.tsbuildinfo
+src/**/*.js
+src/**/*.d.ts
+src/**/*.d.ts.map
+node_modules
+```
