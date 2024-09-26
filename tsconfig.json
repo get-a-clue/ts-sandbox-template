@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "useUnknownInCatchVariables": false,
+        "noEmitOnError": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "inlineSourceMap": true,
+        "target": "ES2022",
+        "lib": ["ES2022"],
+        "declaration": true,
+        "skipLibCheck": true,
+        "composite": true,
+        "strictBindCallApply": true,
+        "declarationMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": ["./node_modules/@types", "./types"]
+    }
+}
